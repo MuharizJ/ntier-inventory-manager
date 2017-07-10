@@ -1,0 +1,10 @@
+C:\Users\Muhariz\Documents\Visual Studio 2012\Projects\AFLStock\AFLStock.WCF\bin\Debug\AFLStock.WCF.Service.dll.config
+C:\Users\Muhariz\Documents\Visual Studio 2012\Projects\AFLStock\AFLStock.WCF\bin\Debug\AFLStock.WCF.Service.dll
+C:\Users\Muhariz\Documents\Visual Studio 2012\Projects\AFLStock\AFLStock.WCF\bin\Debug\AFLStock.WCF.Service.pdb
+C:\Users\Muhariz\Documents\Visual Studio 2012\Projects\AFLStock\AFLStock.WCF\bin\Debug\AFLStock.DAL.EF.dll
+C:\Users\Muhariz\Documents\Visual Studio 2012\Projects\AFLStock\AFLStock.WCF\bin\Debug\AFLStock.Entities.dll
+C:\Users\Muhariz\Documents\Visual Studio 2012\Projects\AFLStock\AFLStock.WCF\bin\Debug\AFLStock.DAL.EF.pdb
+C:\Users\Muhariz\Documents\Visual Studio 2012\Projects\AFLStock\AFLStock.WCF\bin\Debug\AFLStock.Entities.pdb
+C:\Users\Muhariz\Documents\Visual Studio 2012\Projects\AFLStock\AFLStock.WCF\obj\Debug\AFLStock.WCF.Service.csprojResolveAssemblyReference.cache
+C:\Users\Muhariz\Documents\Visual Studio 2012\Projects\AFLStock\AFLStock.WCF\obj\Debug\AFLStock.WCF.Service.dll
+C:\Users\Muhariz\Documents\Visual Studio 2012\Projects\AFLStock\AFLStock.WCF\obj\Debug\AFLStock.WCF.Service.pdb

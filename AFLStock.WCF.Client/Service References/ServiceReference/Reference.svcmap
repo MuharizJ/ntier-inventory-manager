@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="5f26ea00-1994-47bc-8022-55e70a5eb62f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/AFLStock.WCF.Service/AFLStockService/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="0c43732f-8305-4489-8857-0c62e3aec8e6" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/AFLStock.WCF.Service/AFLStockService/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="dd689adb-48e1-49ef-8fbc-1cebf5f4cbc9" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/AFLStock.WCF.Service/AFLStockService/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="b1f0177f-41a5-45d7-81e0-aa3b4a3bcb78" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/AFLStock.WCF.Service/AFLStockService/mex" />
+    <MetadataFile FileName="AFLStock.Entities.xsd" MetadataType="Schema" ID="b35156eb-973d-43a4-ab72-1e53b279fb88" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/AFLStock.WCF.Service/AFLStockService/mex" />
+    <MetadataFile FileName="Arrays.xsd" MetadataType="Schema" ID="1b0bba4f-da2a-45b6-a8b1-e2d94466050d" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/AFLStock.WCF.Service/AFLStockService/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

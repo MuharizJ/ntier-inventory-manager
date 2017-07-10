@@ -1,0 +1,6 @@
+C:\Users\Muhariz\Documents\Visual Studio 2012\Projects\AFLStock\AFLStock.WCF.Client\bin\Debug\AFLStock.WCF.Client.dll.config
+C:\Users\Muhariz\Documents\Visual Studio 2012\Projects\AFLStock\AFLStock.WCF.Client\bin\Debug\AFLStock.WCF.Client.dll
+C:\Users\Muhariz\Documents\Visual Studio 2012\Projects\AFLStock\AFLStock.WCF.Client\bin\Debug\AFLStock.WCF.Client.pdb
+C:\Users\Muhariz\Documents\Visual Studio 2012\Projects\AFLStock\AFLStock.WCF.Client\obj\Debug\AFLStock.WCF.Client.csprojResolveAssemblyReference.cache
+C:\Users\Muhariz\Documents\Visual Studio 2012\Projects\AFLStock\AFLStock.WCF.Client\obj\Debug\AFLStock.WCF.Client.dll
+C:\Users\Muhariz\Documents\Visual Studio 2012\Projects\AFLStock\AFLStock.WCF.Client\obj\Debug\AFLStock.WCF.Client.pdb

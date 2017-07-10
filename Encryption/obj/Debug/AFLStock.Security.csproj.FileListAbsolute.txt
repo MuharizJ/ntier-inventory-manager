@@ -1,0 +1,9 @@
+C:\Users\Muhariz\Documents\Visual Studio 2010\Projects\AFLStock\Encryption\bin\Debug\Encryption.dll
+C:\Users\Muhariz\Documents\Visual Studio 2010\Projects\AFLStock\Encryption\bin\Debug\Encryption.pdb
+C:\Users\Muhariz\Documents\Visual Studio 2010\Projects\AFLStock\Encryption\obj\Debug\Encryption.dll
+C:\Users\Muhariz\Documents\Visual Studio 2010\Projects\AFLStock\Encryption\obj\Debug\Encryption.pdb
+C:\Users\Muhariz\Documents\Visual Studio 2012\Projects\AFLStock\Encryption\bin\Debug\Encryption.dll
+C:\Users\Muhariz\Documents\Visual Studio 2012\Projects\AFLStock\Encryption\bin\Debug\Encryption.pdb
+C:\Users\Muhariz\Documents\Visual Studio 2012\Projects\AFLStock\Encryption\obj\Debug\AFLStock.Security.csprojResolveAssemblyReference.cache
+C:\Users\Muhariz\Documents\Visual Studio 2012\Projects\AFLStock\Encryption\obj\Debug\Encryption.dll
+C:\Users\Muhariz\Documents\Visual Studio 2012\Projects\AFLStock\Encryption\obj\Debug\Encryption.pdb

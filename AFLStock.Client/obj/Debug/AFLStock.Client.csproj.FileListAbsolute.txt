@@ -1,0 +1,14 @@
+C:\Users\Muhariz\Documents\Visual Studio 2010\Projects\AFLStock\AFLStock.Client\bin\Debug\AFLStock.Client.dll
+C:\Users\Muhariz\Documents\Visual Studio 2010\Projects\AFLStock\AFLStock.Client\bin\Debug\AFLStock.Client.pdb
+C:\Users\Muhariz\Documents\Visual Studio 2010\Projects\AFLStock\AFLStock.Client\bin\Debug\AFLStock.Entities.dll
+C:\Users\Muhariz\Documents\Visual Studio 2010\Projects\AFLStock\AFLStock.Client\bin\Debug\AFLStock.Entities.pdb
+C:\Users\Muhariz\Documents\Visual Studio 2010\Projects\AFLStock\AFLStock.Client\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Muhariz\Documents\Visual Studio 2010\Projects\AFLStock\AFLStock.Client\obj\Debug\AFLStock.Client.dll
+C:\Users\Muhariz\Documents\Visual Studio 2010\Projects\AFLStock\AFLStock.Client\obj\Debug\AFLStock.Client.pdb
+F:\Programming\Visual Studio Projects\AFLStock\AFLStock.Client\bin\Debug\AFLStock.Client.dll
+F:\Programming\Visual Studio Projects\AFLStock\AFLStock.Client\bin\Debug\AFLStock.Client.pdb
+F:\Programming\Visual Studio Projects\AFLStock\AFLStock.Client\bin\Debug\AFLStock.Entities.dll
+F:\Programming\Visual Studio Projects\AFLStock\AFLStock.Client\bin\Debug\AFLStock.Entities.pdb
+F:\Programming\Visual Studio Projects\AFLStock\AFLStock.Client\obj\Debug\ResolveAssemblyReference.cache
+F:\Programming\Visual Studio Projects\AFLStock\AFLStock.Client\obj\Debug\AFLStock.Client.dll
+F:\Programming\Visual Studio Projects\AFLStock\AFLStock.Client\obj\Debug\AFLStock.Client.pdb

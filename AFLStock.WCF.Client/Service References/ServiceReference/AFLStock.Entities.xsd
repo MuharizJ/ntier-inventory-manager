@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/AFLStock.Entities" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/AFLStock.Entities" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:complexType name="ArrayOfPurchaseOrder_POCO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PurchaseOrder_POCO" nillable="true" type="tns:PurchaseOrder_POCO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPurchaseOrder_POCO" nillable="true" type="tns:ArrayOfPurchaseOrder_POCO" />
+  <xs:complexType name="PurchaseOrder_POCO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Details" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ExternalReferenceID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ID" type="xs:int" />
+      <xs:element minOccurs="0" name="PurchaseOrderDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PurchaseOrderDetailList" nillable="true" type="tns:ArrayOfPurchaseOrderDetail_POCO" />
+      <xs:element minOccurs="0" name="SupplierName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PurchaseOrder_POCO" nillable="true" type="tns:PurchaseOrder_POCO" />
+  <xs:complexType name="ArrayOfPurchaseOrderDetail_POCO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PurchaseOrderDetail_POCO" nillable="true" type="tns:PurchaseOrderDetail_POCO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPurchaseOrderDetail_POCO" nillable="true" type="tns:ArrayOfPurchaseOrderDetail_POCO" />
+  <xs:complexType name="PurchaseOrderDetail_POCO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Quantity" type="xs:double" />
+      <xs:element minOccurs="0" name="StockCategory" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UnitType" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PurchaseOrderDetail_POCO" nillable="true" type="tns:PurchaseOrderDetail_POCO" />
+  <xs:complexType name="ArrayOfSalesOrder_POCO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="SalesOrder_POCO" nillable="true" type="tns:SalesOrder_POCO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfSalesOrder_POCO" nillable="true" type="tns:ArrayOfSalesOrder_POCO" />
+  <xs:complexType name="SalesOrder_POCO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CustomerName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Details" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ExternalReferenceID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ID" type="xs:int" />
+      <xs:element minOccurs="0" name="SalesOrderDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SalesOrderDetailList" nillable="true" type="tns:ArrayOfSalesOrderDetail_POCO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SalesOrder_POCO" nillable="true" type="tns:SalesOrder_POCO" />
+  <xs:complexType name="ArrayOfSalesOrderDetail_POCO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="SalesOrderDetail_POCO" nillable="true" type="tns:SalesOrderDetail_POCO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfSalesOrderDetail_POCO" nillable="true" type="tns:ArrayOfSalesOrderDetail_POCO" />
+  <xs:complexType name="SalesOrderDetail_POCO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Quantity" type="xs:double" />
+      <xs:element minOccurs="0" name="StockCategory" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UnitType" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SalesOrderDetail_POCO" nillable="true" type="tns:SalesOrderDetail_POCO" />
+  <xs:complexType name="ArrayOfStockItemMaster_POCO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="StockItemMaster_POCO" nillable="true" type="tns:StockItemMaster_POCO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfStockItemMaster_POCO" nillable="true" type="tns:ArrayOfStockItemMaster_POCO" />
+  <xs:complexType name="StockItemMaster_POCO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Cost" type="xs:double" />
+      <xs:element minOccurs="0" name="DesignNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="HasQuantityList" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Quantity" type="xs:double" />
+      <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="QuantityList" nillable="true" type="q1:ArrayOfdouble" />
+      <xs:element minOccurs="0" name="StockCategory" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SubCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UnitType" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="StockItemMaster_POCO" nillable="true" type="tns:StockItemMaster_POCO" />
+</xs:schema>

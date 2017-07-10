@@ -1,0 +1,9 @@
+C:\Users\Muhariz\Documents\Visual Studio 2010\Projects\AFLStock\AFLStock.Entities\bin\Debug\AFLStock.Entities.dll
+C:\Users\Muhariz\Documents\Visual Studio 2010\Projects\AFLStock\AFLStock.Entities\bin\Debug\AFLStock.Entities.pdb
+C:\Users\Muhariz\Documents\Visual Studio 2010\Projects\AFLStock\AFLStock.Entities\obj\Debug\AFLStock.Entities.dll
+C:\Users\Muhariz\Documents\Visual Studio 2010\Projects\AFLStock\AFLStock.Entities\obj\Debug\AFLStock.Entities.pdb
+C:\Users\Muhariz\Documents\Visual Studio 2012\Projects\AFLStock\AFLStock.Entities\bin\Debug\AFLStock.Entities.dll
+C:\Users\Muhariz\Documents\Visual Studio 2012\Projects\AFLStock\AFLStock.Entities\bin\Debug\AFLStock.Entities.pdb
+C:\Users\Muhariz\Documents\Visual Studio 2012\Projects\AFLStock\AFLStock.Entities\obj\Debug\AFLStock.Entities.csprojResolveAssemblyReference.cache
+C:\Users\Muhariz\Documents\Visual Studio 2012\Projects\AFLStock\AFLStock.Entities\obj\Debug\AFLStock.Entities.dll
+C:\Users\Muhariz\Documents\Visual Studio 2012\Projects\AFLStock\AFLStock.Entities\obj\Debug\AFLStock.Entities.pdb

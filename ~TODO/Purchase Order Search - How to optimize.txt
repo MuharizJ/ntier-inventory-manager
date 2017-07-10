@@ -1,0 +1,10 @@
+1. change the call from the Form_PurchaseOrder_Search class' button_ListPOs_Click method to use the new optimized po search (this should return a list of Simple objects (should only contain the date, reference id etc of the purchase orders)
+
+2. CREATE a new method in the StockConsumerLocal class that can return a list of simplified purchase objects that has id, date, supplier etc
+
+3. update the dataGridView_POs_SelectionChanged() and button_SelectPO_Click() in the class the Form_PurchaseOrder_Search to use the information obtained from the simple list of purchase orders returned (the id of the selected object) to LOAD the correct purchase order completely from the database
+
+
+
+POCO - Purchase Order Detail
+Stock Category, Total Quantity, Unit Type

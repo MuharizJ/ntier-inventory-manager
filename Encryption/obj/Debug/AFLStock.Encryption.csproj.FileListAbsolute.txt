@@ -1,0 +1,5 @@
+F:\Programming\Visual Studio Projects\AFLStock\Encryption\obj\Debug\ResolveAssemblyReference.cache
+F:\Programming\Visual Studio Projects\AFLStock\Encryption\bin\Debug\Encryption.dll
+F:\Programming\Visual Studio Projects\AFLStock\Encryption\bin\Debug\Encryption.pdb
+F:\Programming\Visual Studio Projects\AFLStock\Encryption\obj\Debug\Encryption.dll
+F:\Programming\Visual Studio Projects\AFLStock\Encryption\obj\Debug\Encryption.pdb

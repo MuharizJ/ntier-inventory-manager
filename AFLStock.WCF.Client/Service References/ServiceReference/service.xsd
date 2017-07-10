@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://schemas.datacontract.org/2004/07/AFLStock.Entities" />
+  <xs:element name="GetPurchaseOrders_Simplified">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPurchaseOrders_SimplifiedResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/AFLStock.Entities" minOccurs="0" name="GetPurchaseOrders_SimplifiedResult" nillable="true" type="q1:ArrayOfPurchaseOrder_POCO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetSalesOrders_Simplified">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetSalesOrders_SimplifiedResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/AFLStock.Entities" minOccurs="0" name="GetSalesOrders_SimplifiedResult" nillable="true" type="q2:ArrayOfSalesOrder_POCO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TotalStockValue">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TotalStockValueResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="TotalStockValueResult" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetStockItemsAll_Simplified">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetStockItemsAll_SimplifiedResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/AFLStock.Entities" minOccurs="0" name="GetStockItemsAll_SimplifiedResult" nillable="true" type="q3:ArrayOfStockItemMaster_POCO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetStockItemsByCategory_Simplified">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="catID" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetStockItemsByCategory_SimplifiedResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/AFLStock.Entities" minOccurs="0" name="GetStockItemsByCategory_SimplifiedResult" nillable="true" type="q4:ArrayOfStockItemMaster_POCO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetStockItemsByCategoryDesignNumber_Simplified">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="catID" type="xs:int" />
+        <xs:element minOccurs="0" name="designNumber" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetStockItemsByCategoryDesignNumber_SimplifiedResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/AFLStock.Entities" minOccurs="0" name="GetStockItemsByCategoryDesignNumber_SimplifiedResult" nillable="true" type="q5:ArrayOfStockItemMaster_POCO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetStockItemsByCategoryDesignNumberSubCode_Simplified">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="catID" type="xs:int" />
+        <xs:element minOccurs="0" name="designNumber" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="subCode" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetStockItemsByCategoryDesignNumberSubCode_SimplifiedResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/AFLStock.Entities" minOccurs="0" name="GetStockItemsByCategoryDesignNumberSubCode_SimplifiedResult" nillable="true" type="q6:ArrayOfStockItemMaster_POCO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
